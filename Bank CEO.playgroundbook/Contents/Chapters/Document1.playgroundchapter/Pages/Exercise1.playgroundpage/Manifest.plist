@@ -18,12 +18,6 @@
 			<key>Content</key>
 			<string>Try simulating the interest rates and excess reserves amount to see changes</string>
 		</dict>
-		<dict>
-			<key>SpoilerButtonTitle</key>
-			<string>Show Spoiler</string>
-			<key>FileReference</key>
-			<string>sp1.txt</string>
-		</dict>
 	</array>
 </dict>
 </plist>

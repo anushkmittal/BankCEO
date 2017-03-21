@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <key>Name</key>
-        <string>New Variations</string>
-        <key>LiveViewEdgeToEdge</key>
-        <true/>
-        <key>LiveViewMode</key>
-        <string>VisibleByDefault</string>
-        <key>PlaygroundLoggingMode</key>
-        <string>Off</string>
-        <key>PosterReference</key>
-        <string>bg.png</string>
-        <key>Hints</key>
-        <array>
-            <dict>
-                <key>Content</key>
-                <string>Try simulating the interest rates and excess reserves amount to see changes</string>
-            </dict>
-            <dict>
-                <key>SpoilerButtonTitle</key>
-                <string>Show Spoiler</string>
-                <key>FileReference</key>
-                <string>sp1.txt</string>
-            </dict>
-        </array>
-    </dict>
+<dict>
+	<key>Name</key>
+	<string>New Variations</string>
+	<key>LiveViewEdgeToEdge</key>
+	<true/>
+	<key>LiveViewMode</key>
+	<string>VisibleByDefault</string>
+	<key>PlaygroundLoggingMode</key>
+	<string>Off</string>
+	<key>PosterReference</key>
+	<string>bg.png</string>
+	<key>Hints</key>
+	<array>
+		<dict>
+			<key>Content</key>
+			<string>Try simulating the interest rates and excess reserves amount to see changes</string>
+		</dict>
+	</array>
+</dict>
 </plist>
