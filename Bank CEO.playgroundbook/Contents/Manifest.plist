@@ -5,13 +5,15 @@
 	<key>Version</key>
 	<string>1.0</string>
 	<key>ContentVersion</key>
-	<string>1.0.2</string>
+	<string>1</string>
+	<key>New item</key>
+	<string></string>
 	<key>Name</key>
-	<string>Blink</string>
+	<string>Bank CEO</string>
 	<key>Description</key>
-	<string>Blink: Life Simulator</string>
+	<string>Bank Game: Be the CEO</string>
 	<key>ContentIdentifier</key>
-	<string>com.apple.playgrounds.blink</string>
+	<string>com.anushkmittal.bankCEO</string>
 	<key>DeploymentTarget</key>
 	<string>ios10.0</string>
 	<key>ImageReference</key>

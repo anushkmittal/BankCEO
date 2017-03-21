@@ -2,7 +2,7 @@
 //
 //  Contents.swift
 //
-//  Copyright (c) 2016 Apple Inc. All Rights Reserved.
+//  Copyright (c) 2017 Anushk Mittal. All Rights Reserved.
 //
 //#-end-hidden-code
 /*:
