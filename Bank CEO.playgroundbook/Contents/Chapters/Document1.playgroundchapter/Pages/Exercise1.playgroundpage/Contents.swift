@@ -1,42 +1,39 @@
 //#-hidden-code
 //
 //  Contents.swift
-// ..
+//
 //  Copyright (c) 2017 Anushk Mittal. All Rights Reserved.
 //
 //#-end-hidden-code
 /*:
- # Blink: A Cell Simulator
- Blink is a simulation that explores how a living cell reproduces or dies given a certain set of rules. Your goal is to understand the algorithms that run the simulation so that you can create your own version, with your own rules.
+ # BankCEO: A Bank Stimulator
  
- This playground is running a modified version of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life), which presents cells reproducing and dying based upon the status of the 8 neighboring cells. You will see this simulation in the **live view** when you run the code.
+ BankCEO is a simulation that explores how a real world bank stimulates the economy and produces cash out of thin air. Your goal is to understand the algorithms that run the stimulation so that you can modify the external factors and Fed regulations besides bank policies and create your own version of bank, with in your own hypothetical world.
  
- The rules for this simulation are:
- * Any living cell with fewer than two living neighbors dies.
- * Any living cell with two or three living neighbors lives on.
- * Any living cell with more than three living neighbors dies.
- * Any dead cell with exactly three living neighbors becomes a living cell.
+ The playground is running a modified version of how a real world bank works with related factors of uncertainty in the market. You’re the CEO of a newly launched bank. Starting with initial deposits of $10 million, your target is to increase the bank assets through a series of manipulations in interest rates and investment / loan strategies that deem suitable for each quarter.
  
- The cell simulator uses a loop to evaluate all cells on the grid. For each iteration of the loop, the rules are applied and a new generation of cells is created. Experiment with stepping through the simulation to watch this happen. On the next page, you'll explore modifying this algorithm.
+ 
+ The basic rules of a banking system are:
+ * An increase in interest rate given on deposits would increase the supply of deposits
+ * An decrease in interest rate charged on loans would increase the demand of loanable funds
+ * Investments are generally more profitable and less risky when compared to tradeoffs against loans
+ * Government bonds are less risky to invest but also produce low income
+ * Corporate bonds are more riskier than government bonds and so produce a higher income
+ * Investing in Stock Markets is very risky. The key here is to diversify.
+ * The tradeoff against diversification is probability of earning a bumper income occasionally as compared to higher risk of loosing or most invest money.
+ * Fed can manipulate bank income by changing reserve requirements.
+ 
+ On the next page, you'll explore modifying this algorithm to change fed requirements and manipulate external events.
+ 
  */
-//#-editable-code
+//#-hidden-code
 
 import PlaygroundSupport
 import UIKit
 
 let master = DashboardViewController()
-
-
-
 let nav = UINavigationController(rootViewController: master)
 
 PlaygroundPage.current.liveView = nav
 
-print(master.bank.excessReserves)
-print(master.bank.bankReserves)
-
-
-// risk managed through code for LoansViewController
-
-
-//#-end-editable-code
+//#-end-hidden-code
