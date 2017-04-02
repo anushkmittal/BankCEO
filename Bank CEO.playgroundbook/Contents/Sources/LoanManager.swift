@@ -1,6 +1,6 @@
 import Foundation
 
-class LoanManager {
+public class LoanManager {
     
     var interest: Float
     var projections: Float
@@ -34,7 +34,7 @@ class LoanManager {
         return Int(arc4random_uniform(UInt32(b - a + 1))) + a
     }
     
-    func setRiskFactor(risk: Float) {
+    public func setRiskFactor(risk: Float) {
         riskFactor = risk
     }
     

@@ -135,4 +135,8 @@ public class InvestmentManager {
         
         return Int(arc4random_uniform(UInt32(b - a + 1))) + a
     }
+    
+    public func setDiversification(newRatio: Float) {
+        diversify = newRatio
+    }
 }

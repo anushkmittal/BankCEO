@@ -1,6 +1,6 @@
 import Foundation
 
-let sharedBank = Bank(deposits: 1000000, loanedPercentage: 0)
+public let sharedBank = Bank(deposits: 1000000, loanedPercentage: 0)
 
 public class Bank {
     
@@ -20,7 +20,7 @@ public class Bank {
     public var usableFund: Float // this is the money that can be manipulated by bank
     
     /** Loans */
-    let loanManager = LoanManager(riskFactor: 5/100)
+    public let loanManager = LoanManager(riskFactor: 5/100)
     public var loan: Float // current loans (loans added and subtracted each month)
     public var percentLoaned: Float // percent of the usable funds loaned
     public var interestEarned: Float // this is our monthly income
@@ -33,7 +33,7 @@ public class Bank {
     public var percentInvested: Float
     public var investmentEarnings: Float // this is our monthly income
     public var totalInvestmentEarnings: Float = 0 // this is our total income
-    let investmentManager: InvestmentManager
+    public let investmentManager: InvestmentManager
     
     public var excessReserves: Float
     
@@ -85,7 +85,7 @@ public class Bank {
         excessReserves = deposit - (bankReserves + loan + totalInterestEarned + investment + totalInvestmentEarnings)
     }
     
-    func nextQuarter(deposits: Float) {
+    public func nextQuarter(deposits: Float) {
         // next quarter
         // update all things by fetching and using all the latest information
         
@@ -103,7 +103,7 @@ public class Bank {
     }
     
     /// Should be called just once!
-    func recalculateStuff() {
+    public func recalculateStuff() {
         
         // stuff that changes with change in deposit
         totalInterestPaid = deposit * depositManager.interest // the new interest paid
