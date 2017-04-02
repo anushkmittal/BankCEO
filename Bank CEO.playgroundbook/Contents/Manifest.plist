@@ -2,10 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>DevelopmentRegion</key>
+	<string>en</string>
+	<key>SwiftVersion</key>
+	<string>3.1</string>
 	<key>Version</key>
-	<string>1.0</string>
+	<string>3.0</string>
 	<key>ContentVersion</key>
-	<string>1</string>
+	<string>1.0.1</string>
 	<key>Name</key>
 	<string>Bank CEO</string>
 	<key>Description</key>
